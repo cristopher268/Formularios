@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Horas Semanales</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h2>Horas de la Semana</h2>
+        
+        <!-- Formulario con botón de tipo submit -->
+        <form id="formularioHoras">
+            <label for="horasRegulares">Horas regulares (Lunes a Viernes):</label>
+            <input type="number" id="horasRegulares" step="0.5" required>
+
+            <label for="horasExtras">Horas extras (Fines de semana/otros):</label>
+            <input type="number" id="horasExtras" step="0.5" required>
+
+            <button type="submit">Calcular Total</button>
+        </form>
+
+        <!-- Contenedor donde se mostrará el resultado con innerHTML -->
+        <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

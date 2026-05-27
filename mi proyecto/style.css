@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    /* Un degradado lineal suave entre azul pastel y lavanda claro */
+    background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contenedor {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 12px; /* Bordes un poco más redondeados para combinar con el fondo */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1); /* Sombra un poco más suave y difuminada */
+    width: 320px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #333;
+}
+
+input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s; /* Transición suave al pasar el mouse */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#resultado {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.1em;
+}
